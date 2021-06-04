@@ -1,0 +1,11 @@
+title: Core Values
+
+sections:
+  - name: Problem Solving
+    questions:
+      - pbs-photos
+      - difficult-problem
+
+  - name: Agile Orientation
+    questions:
+      - agile-experience

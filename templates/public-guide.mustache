@@ -1,0 +1,14 @@
+# {{ title }}
+
+{{#sections}}
+## {{ name }}
+
+{{#questions}}
+- {{ text }}
+{{#follow ups }}
+   - {{ text }}
+      {{> nested_list_md }}
+{{/follow ups}}
+{{/questions}}
+
+{{/sections}}

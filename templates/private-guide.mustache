@@ -1,0 +1,53 @@
+# {{ title }}
+
+{{#sections}}
+## {{ name }}
+
+{{#questions}}
+<table>
+  <tr>
+    <td colspan="2">
+      {{text}}
+    </td>
+  <tr>
+  <tr>
+    <td colspan="2">
+      <strong>Follow-ups:</strong>{{^follow ups}} (none){{/follow ups}}
+      <ul>
+      {{#follow ups}}
+        <li>{{ text }}</li>
+        {{> nested_list_html }}
+      {{/follow ups}}
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <strong>Great Signs:</strong>
+      <ul>
+      {{#great}}
+        <li>{{ text }}</li>
+        {{> nested_list_html }}
+      {{/great}}
+      </ul>
+    </td>
+    <td>
+      <strong>Warning Signs:</strong>
+      <ul>
+      {{#warning}}
+        <li>{{ text }}</li>
+        {{> nested_list_html }}
+      {{/warning}}
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <strong>Notes:</strong>
+      <br/><br/><br/><br/><br/><br/><br/><br/>
+    </td>
+  </tr>
+</table>
+{{/questions}}
+
+{{/sections}}

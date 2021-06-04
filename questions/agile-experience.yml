@@ -1,0 +1,22 @@
+text: Tell me about your experience with agile or other collaborative working
+  styles. How does working in an agile way affect the technical choices you
+  make?
+follow ups:
+  - If the candidate hasn’t worked in an agile environment before, describe how
+    we work, and determine their willingness to work in that way (cross
+    disciplinary self organizing team)
+  - Can you give me a specific example? (a good follow-up for candidates with
+    general, buzzword-y answers)
+  - "(For candidates who’ve experienced agile development before): What worked
+    about that method of practicing agile? What could have gone better?"
+great:
+  - This is a good sign
+  - So is this!
+  - text: This good sign has some sub-bullets
+    children:
+      - Like this sub-bullet
+      - And this one
+warning:
+  - Here are some warning signs
+  - And this one too
+  - One more, why not?

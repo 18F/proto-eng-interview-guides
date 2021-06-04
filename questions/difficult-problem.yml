@@ -1,0 +1,12 @@
+text: "Tell me about a difficult technical problem that you helped solve: what
+  was the problem, and how was it solved?"
+follow ups:
+  - Did you get stuck? Did you ask for help?
+  - What other options did you consider? Why didn't you go with those?
+great:
+  - A good thing
+  - More good things
+  - Wow, this is great!
+warning:
+  - A thing to drill in on
+  - ":oh-no:"

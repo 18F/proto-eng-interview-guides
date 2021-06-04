@@ -1,0 +1,22 @@
+text: Let’s say your team is working for the Public Building Service, an arm of
+  the GSA that is responsible for the maintenance and upkeep of all
+  government buildings. They’ve asked you to create a feature where a
+  building inspector can upload photos of their building inspection findings
+  so they can document them visually and ensure issues are fixed. How would
+  you approach the design and build for this?
+follow ups:
+  - If you only had a week to work on this problem, what would you do first?
+  - text: How would you approach scaling?
+    children:
+      - "Note: For front-end developers, focus on interactions(such as
+        navigating sharing with many users) and robust rendering (such as
+        addressing albums with many images) rather than back-end database and
+        static storage aspects."
+  - "[If the response doesn't mention users] How would you make sure this
+    solution works for users?"
+great:
+  - What a great answer!
+  - Oh, good observation
+warning:
+  - Let's ask more probing questions about this
+  - Oop
